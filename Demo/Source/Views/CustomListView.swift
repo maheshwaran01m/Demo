@@ -20,9 +20,8 @@ struct CustomListView: View {
   }
   
   var body: some View {
-    NavigationStack {
-      mainView
-    }
+    mainView
+      .navigationBarTitleDisplayMode(.inline)
   }
 }
 
@@ -44,7 +43,6 @@ extension CustomListView {
       detailView(record)
     }
     .listStyle(.plain)
-    .navigationTitle("Home")
     .navigationDestination(isPresented: bindingPlayer, destination: playerDetailView)
     .alert("Alert", isPresented: bindingAlert, actions: {}, message: alertMessageView)
   }

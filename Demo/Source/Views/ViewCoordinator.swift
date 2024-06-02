@@ -23,7 +23,7 @@ enum ViewCoordinator: String, CaseIterable, View {
   @ViewBuilder
   private var destinationView: some View {
     switch self {
-    case .list: Text("List")
+    case .list: CustomListView()
     }
   }
 }
