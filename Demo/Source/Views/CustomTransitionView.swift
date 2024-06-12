@@ -60,11 +60,7 @@ struct CustomTransitionView: View {
       (0..<10).map { Item(title: "Item \($0)", icon: $0) }
     }
     
-    var color: Color = Color(
-      red: .random(in: 0...1),
-      green: .random(in: 0...1),
-      blue: .random(in: 0...1)
-    )
+    var color: Color = .randomColor
   }
 }
 

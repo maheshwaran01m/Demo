@@ -20,7 +20,7 @@ struct CustomSheetView: View {
         Text("Height: \($0.height)")
           .padding()
           .frame(height: $0.height)
-        // .presentationSizing(.fitted) // adaptable based on height
+          .presentationSizing(.fitted) // adaptable based on height
         /*
          .presentationSizing(
          .page
