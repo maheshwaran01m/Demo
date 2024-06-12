@@ -35,7 +35,7 @@ struct CustomTransitionView: View {
         }
       }
     }
-    .matchedTransitionSource(id: item, in: transitionID)
+    .matchedTransitionSource(id: item, in: transitionID) // Identifies source view
   }
   
   private func destinationView(for item: Item) -> some View {
@@ -48,7 +48,7 @@ struct CustomTransitionView: View {
       Text(item.title)
     }
     .padding()
-    .navigationTransition(.zoom(sourceID: item, in: transitionID))
+    .navigationTransition(.zoom(sourceID: item, in: transitionID)) // Sets the navigation transition style
   }
   
   struct Item: Hashable {
