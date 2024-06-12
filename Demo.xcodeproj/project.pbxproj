@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3D2BA0AD2C17FB6500026A63 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2BA0AC2C17FB6500026A63 /* CustomTabBarView.swift */; };
 		3D2BA0AF2C18041300026A63 /* CustomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2BA0AE2C18041300026A63 /* CustomSheetView.swift */; };
+		3D3B0A2B2C193A64002E63E6 /* CustomTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B0A2A2C193A64002E63E6 /* CustomTransitionView.swift */; };
 		3D6A322E2C0BE67200ADAD2B /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A322D2C0BE67200ADAD2B /* DemoApp.swift */; };
 		3D6A32302C0BE67200ADAD2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A322F2C0BE67200ADAD2B /* ContentView.swift */; };
 		3D6A32322C0BE67300ADAD2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6A32312C0BE67300ADAD2B /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		3D2BA0AC2C17FB6500026A63 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		3D2BA0AE2C18041300026A63 /* CustomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSheetView.swift; sourceTree = "<group>"; };
+		3D3B0A2A2C193A64002E63E6 /* CustomTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionView.swift; sourceTree = "<group>"; };
 		3D6A322A2C0BE67200ADAD2B /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6A322D2C0BE67200ADAD2B /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
 		3D6A322F2C0BE67200ADAD2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				3D6A32402C0BE9A000ADAD2B /* CustomListView.swift */,
 				3D2BA0AC2C17FB6500026A63 /* CustomTabBarView.swift */,
 				3D2BA0AE2C18041300026A63 /* CustomSheetView.swift */,
+				3D3B0A2A2C193A64002E63E6 /* CustomTransitionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				3D2BA0AD2C17FB6500026A63 /* CustomTabBarView.swift in Sources */,
 				3D6A32442C0BEA2500ADAD2B /* ViewExtensions.swift in Sources */,
 				3D6A322E2C0BE67200ADAD2B /* DemoApp.swift in Sources */,
+				3D3B0A2B2C193A64002E63E6 /* CustomTransitionView.swift in Sources */,
 				3D2BA0AF2C18041300026A63 /* CustomSheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
