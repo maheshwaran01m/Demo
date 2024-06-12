@@ -8,12 +8,13 @@
 import SwiftUI
 
 enum ViewCoordinator: String, CaseIterable, View {
-  case list, tab
+  case list, tab, sheet
   
   var title: String {
     switch self {
     case .list: return "List"
     case .tab: return "Tab"
+    case .sheet: return "Sheet"
     }
   }
   
@@ -26,6 +27,7 @@ enum ViewCoordinator: String, CaseIterable, View {
     switch self {
     case .list: CustomListView()
     case .tab: CustomTabBarView()
+    case .sheet: CustomSheetView()
     }
   }
 }
