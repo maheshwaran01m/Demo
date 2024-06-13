@@ -1,6 +1,6 @@
 # Demo
 
-A collection of SwiftUI notes, playgrounds ideas on learning and experimenting with SwiftUI
+A collection of SwiftUI notes, playground ideas on learning and experimenting with SwiftUI
 
 `Image`
 
