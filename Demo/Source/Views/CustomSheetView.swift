@@ -19,7 +19,7 @@ struct CustomSheetView: View {
       .sheet(item: $selectedItem) {
         Text("Height: \($0.height)")
           .padding()
-          .frame(height: $0.height)
+          .frame(width: $0.height, height: $0.height)
           .presentationSizing(.fitted) // adaptable based on height
         /*
          .presentationSizing(
@@ -39,7 +39,7 @@ struct CustomSheetView: View {
     }
     
     var height: CGFloat {
-      CGFloat((100...300).randomElement() ?? 200)
+      CGFloat((200...600).randomElement() ?? 200)
     }
   }
 }
