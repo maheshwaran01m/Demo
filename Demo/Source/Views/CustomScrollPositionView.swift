@@ -21,6 +21,7 @@ struct CustomScrollPositionView: View {
           .id(i)
       }
     }
+    .padding(.horizontal, 8)
     .scrollPosition($position)
     .safeAreaInset(edge: .bottom, content: bottomView)
   }
