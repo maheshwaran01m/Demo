@@ -17,6 +17,7 @@
 		3D6A323F2C0BE7A300ADAD2B /* ViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A323E2C0BE7A300ADAD2B /* ViewCoordinator.swift */; };
 		3D6A32412C0BE9A000ADAD2B /* CustomListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A32402C0BE9A000ADAD2B /* CustomListView.swift */; };
 		3D6A32442C0BEA2500ADAD2B /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A32432C0BEA2500ADAD2B /* ViewExtensions.swift */; };
+		3DF7533B2C2FC2E500614175 /* CustomGeometryChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF7533A2C2FC2E500614175 /* CustomGeometryChangeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		3D6A323E2C0BE7A300ADAD2B /* ViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCoordinator.swift; sourceTree = "<group>"; };
 		3D6A32402C0BE9A000ADAD2B /* CustomListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListView.swift; sourceTree = "<group>"; };
 		3D6A32432C0BEA2500ADAD2B /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		3DF7533A2C2FC2E500614175 /* CustomGeometryChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGeometryChangeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				3D2BA0AC2C17FB6500026A63 /* CustomTabBarView.swift */,
 				3D2BA0AE2C18041300026A63 /* CustomSheetView.swift */,
 				3D3B0A2A2C193A64002E63E6 /* CustomTransitionView.swift */,
+				3DF7533A2C2FC2E500614175 /* CustomGeometryChangeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				3D2BA0AD2C17FB6500026A63 /* CustomTabBarView.swift in Sources */,
 				3D6A32442C0BEA2500ADAD2B /* ViewExtensions.swift in Sources */,
 				3D6A322E2C0BE67200ADAD2B /* DemoApp.swift in Sources */,
+				3DF7533B2C2FC2E500614175 /* CustomGeometryChangeView.swift in Sources */,
 				3D3B0A2B2C193A64002E63E6 /* CustomTransitionView.swift in Sources */,
 				3D2BA0AF2C18041300026A63 /* CustomSheetView.swift in Sources */,
 			);
