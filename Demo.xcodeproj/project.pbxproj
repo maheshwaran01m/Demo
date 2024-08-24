@@ -10,6 +10,7 @@
 		3D2BA0AD2C17FB6500026A63 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2BA0AC2C17FB6500026A63 /* CustomTabBarView.swift */; };
 		3D2BA0AF2C18041300026A63 /* CustomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2BA0AE2C18041300026A63 /* CustomSheetView.swift */; };
 		3D3B0A2B2C193A64002E63E6 /* CustomTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B0A2A2C193A64002E63E6 /* CustomTransitionView.swift */; };
+		3D4323922C78C80D006D2634 /* CustomScrollTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4323912C78C80D006D2634 /* CustomScrollTransitionView.swift */; };
 		3D6A322E2C0BE67200ADAD2B /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A322D2C0BE67200ADAD2B /* DemoApp.swift */; };
 		3D6A32302C0BE67200ADAD2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A322F2C0BE67200ADAD2B /* ContentView.swift */; };
 		3D6A32322C0BE67300ADAD2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6A32312C0BE67300ADAD2B /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 		3D2BA0AC2C17FB6500026A63 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		3D2BA0AE2C18041300026A63 /* CustomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSheetView.swift; sourceTree = "<group>"; };
 		3D3B0A2A2C193A64002E63E6 /* CustomTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionView.swift; sourceTree = "<group>"; };
+		3D4323912C78C80D006D2634 /* CustomScrollTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollTransitionView.swift; sourceTree = "<group>"; };
 		3D6A322A2C0BE67200ADAD2B /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6A322D2C0BE67200ADAD2B /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
 		3D6A322F2C0BE67200ADAD2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				3D3B0A2A2C193A64002E63E6 /* CustomTransitionView.swift */,
 				3DF7533A2C2FC2E500614175 /* CustomGeometryChangeView.swift */,
 				3DF7533C2C2FCDB900614175 /* CustomScrollPositionView.swift */,
+				3D4323912C78C80D006D2634 /* CustomScrollTransitionView.swift */,
 				3DCFFD8B2C74E24800605A38 /* CustomMeshGradientView.swift */,
 			);
 			path = Views;
@@ -198,6 +201,7 @@
 			files = (
 				3D6A32302C0BE67200ADAD2B /* ContentView.swift in Sources */,
 				3D6A32412C0BE9A000ADAD2B /* CustomListView.swift in Sources */,
+				3D4323922C78C80D006D2634 /* CustomScrollTransitionView.swift in Sources */,
 				3DCFFD8C2C74E24800605A38 /* CustomMeshGradientView.swift in Sources */,
 				3D6A323F2C0BE7A300ADAD2B /* ViewCoordinator.swift in Sources */,
 				3DF7533D2C2FCDBF00614175 /* CustomScrollPositionView.swift in Sources */,
