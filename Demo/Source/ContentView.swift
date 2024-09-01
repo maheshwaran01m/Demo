@@ -15,6 +15,7 @@ struct ContentView: View {
   
   private var filterViews: [ViewCoordinator] {
     guard !searchText.isEmpty else { return viewCoordinator }
+    let searchText = searchText.trimmingCharacters(in: .whitespaces)
     return viewCoordinator.filter { $0.title.lowercased().localizedCaseInsensitiveContains(searchText)
     }
   }
