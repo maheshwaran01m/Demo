@@ -60,6 +60,7 @@ extension CustomListView {
       }
       .padding(.bottom, 4)
     }
+    .contentShape(.rect)
     .onTapGesture { addNew(record) }
     .frame(maxWidth: .infinity, alignment: .leading)
     .padding([.top, .horizontal], 8)
