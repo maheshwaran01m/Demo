@@ -8,12 +8,13 @@
 import SwiftUI
 
 enum ViewCoordinator: String, CaseIterable, View {
-  case list, tab, sheet, transition, geometryChange, scrollPosition, scrollTransition, meshGradient,
+  case list, listBackground, tab, sheet, transition, geometryChange, scrollPosition, scrollTransition, meshGradient,
        visualEffect, buttonStyle
   
   var title: String {
     switch self {
     case .list: return "List"
+    case .listBackground: return "List Background"
     case .tab: return "Tab"
     case .sheet: return "Sheet"
     case .transition: return "Transition"
@@ -34,6 +35,7 @@ enum ViewCoordinator: String, CaseIterable, View {
   private var destinationView: some View {
     switch self {
     case .list: CustomListView()
+    case .listBackground: CustomListBackgroundView()
     case .tab: CustomTabBarView()
     case .sheet: CustomSheetView()
     case .transition: CustomTransitionView()

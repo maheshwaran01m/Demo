@@ -21,6 +21,7 @@
 		3D95535C2C798994002C39BA /* CustomVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95535B2C798990002C39BA /* CustomVisualEffectView.swift */; };
 		3DCFFD8C2C74E24800605A38 /* CustomMeshGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFFD8B2C74E24800605A38 /* CustomMeshGradientView.swift */; };
 		3DDA27E22C82B21600CBB1FF /* CustomButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDA27E12C82B20900CBB1FF /* CustomButtonStyleView.swift */; };
+		3DF2ABE22C93EAE600C7611D /* CustomListBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF2ABE12C93EAE600C7611D /* CustomListBackgroundView.swift */; };
 		3DF7533B2C2FC2E500614175 /* CustomGeometryChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF7533A2C2FC2E500614175 /* CustomGeometryChangeView.swift */; };
 		3DF7533D2C2FCDBF00614175 /* CustomScrollPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF7533C2C2FCDB900614175 /* CustomScrollPositionView.swift */; };
 /* End PBXBuildFile section */
@@ -41,6 +42,7 @@
 		3D95535B2C798990002C39BA /* CustomVisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVisualEffectView.swift; sourceTree = "<group>"; };
 		3DCFFD8B2C74E24800605A38 /* CustomMeshGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMeshGradientView.swift; sourceTree = "<group>"; };
 		3DDA27E12C82B20900CBB1FF /* CustomButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyleView.swift; sourceTree = "<group>"; };
+		3DF2ABE12C93EAE600C7611D /* CustomListBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListBackgroundView.swift; sourceTree = "<group>"; };
 		3DF7533A2C2FC2E500614175 /* CustomGeometryChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGeometryChangeView.swift; sourceTree = "<group>"; };
 		3DF7533C2C2FCDB900614175 /* CustomScrollPositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollPositionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +116,7 @@
 			children = (
 				3D6A323E2C0BE7A300ADAD2B /* ViewCoordinator.swift */,
 				3D6A32402C0BE9A000ADAD2B /* CustomListView.swift */,
+				3DF2ABE12C93EAE600C7611D /* CustomListBackgroundView.swift */,
 				3D2BA0AC2C17FB6500026A63 /* CustomTabBarView.swift */,
 				3D2BA0AE2C18041300026A63 /* CustomSheetView.swift */,
 				3D3B0A2A2C193A64002E63E6 /* CustomTransitionView.swift */,
@@ -214,6 +217,7 @@
 				3DF7533D2C2FCDBF00614175 /* CustomScrollPositionView.swift in Sources */,
 				3DDA27E22C82B21600CBB1FF /* CustomButtonStyleView.swift in Sources */,
 				3D2BA0AD2C17FB6500026A63 /* CustomTabBarView.swift in Sources */,
+				3DF2ABE22C93EAE600C7611D /* CustomListBackgroundView.swift in Sources */,
 				3D6A32442C0BEA2500ADAD2B /* ViewExtensions.swift in Sources */,
 				3D6A322E2C0BE67200ADAD2B /* DemoApp.swift in Sources */,
 				3DF7533B2C2FC2E500614175 /* CustomGeometryChangeView.swift in Sources */,
