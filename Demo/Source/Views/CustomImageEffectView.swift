@@ -13,42 +13,76 @@ struct CustomImageEffectView: View {
   @State private var canReplaceHeart = false
   
   var body: some View {
-    VStack(spacing: 20) {
+    VStack(alignment: .leading, spacing: 20) {
       
-      Image(systemName: "waveform")
-        .symbolEffect(.variableColor)
-        
-      Image(systemName: "heart")
-        .symbolEffect(.breathe)
+      imageDetailView(
+        for: "waveform",
+        effect: .variableColor,
+        title: "Variable Color")
       
-      Image(systemName: "star")
-        .symbolVariant(.circle)
-        .symbolEffect(.pulse)
+      imageDetailView(
+        for: "heart",
+        effect: .breathe,
+        title: "Breathe")
       
-      Image(systemName: "fan.desk")
-        .symbolEffect(.rotate)
+      imageDetailView(
+        for: "star",
+        effect: .pulse,
+        title: "Pulse")
+      .symbolVariant(.circle)
       
-      Image(systemName: "paperplane")
-        .symbolEffect(.wiggle)
+      imageDetailView(
+        for: "fan.desk",
+        effect: .rotate,
+        title: "Rotate")
       
-      Image(systemName: "leaf.arrow.circlepath")
-        .symbolEffect(.rotate)
-        .symbolEffect(.pulse)
+      imageDetailView(
+        for: "paperplane",
+        effect: .wiggle,
+        title: "Wiggle")
       
-      Image(systemName: "person")
-        .symbolVariant(canReplacePerson ? .fill : .none)
-        .symbolEffect(.pulse)
-        .contentTransition(.symbolEffect(.replace))
-        .onTapGesture { canReplacePerson.toggle() }
+      imageDetailView(
+        for: "leaf.arrow.circlepath",
+        effect: .rotate,
+        title: "Rotate + Pulse")
+      .symbolEffect(.pulse)
       
-      Image(systemName: "heart")
-        .symbolVariant(canReplaceHeart ? .fill : .none)
-        .symbolEffect(.breathe)
-        .contentTransition(.symbolEffect(.replace))
-        .onTapGesture { canReplaceHeart.toggle() }
+      imageDetailView(
+        for: "person",
+        effect: .pulse,
+        title: "Pulse + Replace")
+      .symbolVariant(canReplacePerson ? .fill : .none)
+      .contentTransition(.symbolEffect(.replace))
+      .onTapGesture { canReplacePerson.toggle() }
+      
+      imageDetailView(
+        for: "heart",
+        effect: .breathe,
+        title: "Breathe + Replace")
+      .symbolVariant(canReplaceHeart ? .fill : .none)
+      .contentTransition(.symbolEffect(.replace))
+      .onTapGesture { canReplaceHeart.toggle() }
     }
     .font(.largeTitle)
   }
+}
+
+extension CustomImageEffectView {
+  
+  private func imageDetailView<T: SymbolEffect & IndefiniteSymbolEffect>(
+    for imageName: String,
+    effect: T,
+    title: String) -> some View {
+      
+      HStack {
+        Image(systemName: imageName)
+          .symbolEffect(effect)
+        
+        Text(title)
+          .font(.caption)
+          .foregroundStyle(.secondary)
+      }
+    }
 }
 
 struct CustomImageEffectView_Previews: PreviewProvider {
