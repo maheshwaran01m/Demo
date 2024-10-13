@@ -26,6 +26,7 @@
 		3DF7533B2C2FC2E500614175 /* CustomGeometryChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF7533A2C2FC2E500614175 /* CustomGeometryChangeView.swift */; };
 		3DF7533D2C2FCDBF00614175 /* CustomScrollPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF7533C2C2FCDB900614175 /* CustomScrollPositionView.swift */; };
 		3DFF0B782C9D20BB00A4F5CB /* CustomImageEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFF0B772C9D20B800A4F5CB /* CustomImageEffectView.swift */; };
+		9D61D5EF2CBB6BE300FA8255 /* CustomMoveItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D61D5EE2CBB6BE300FA8255 /* CustomMoveItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		3DF7533A2C2FC2E500614175 /* CustomGeometryChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGeometryChangeView.swift; sourceTree = "<group>"; };
 		3DF7533C2C2FCDB900614175 /* CustomScrollPositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollPositionView.swift; sourceTree = "<group>"; };
 		3DFF0B772C9D20B800A4F5CB /* CustomImageEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageEffectView.swift; sourceTree = "<group>"; };
+		9D61D5EE2CBB6BE300FA8255 /* CustomMoveItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMoveItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				3DDA27E12C82B20900CBB1FF /* CustomButtonStyleView.swift */,
 				3DFF0B772C9D20B800A4F5CB /* CustomImageEffectView.swift */,
 				3DD269072CA797190037D721 /* CustomMatchedGeometryEffectView.swift */,
+				9D61D5EE2CBB6BE300FA8255 /* CustomMoveItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				3DFF0B782C9D20BB00A4F5CB /* CustomImageEffectView.swift in Sources */,
 				3DD269082CA797190037D721 /* CustomMatchedGeometryEffectView.swift in Sources */,
 				3DF7533B2C2FC2E500614175 /* CustomGeometryChangeView.swift in Sources */,
+				9D61D5EF2CBB6BE300FA8255 /* CustomMoveItemView.swift in Sources */,
 				3D3B0A2B2C193A64002E63E6 /* CustomTransitionView.swift in Sources */,
 				3D2BA0AF2C18041300026A63 /* CustomSheetView.swift in Sources */,
 			);

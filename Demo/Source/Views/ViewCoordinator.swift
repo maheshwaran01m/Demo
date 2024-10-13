@@ -9,7 +9,7 @@ import SwiftUI
 
 enum ViewCoordinator: String, CaseIterable, View {
   case list, listBackground, tab, sheet, transition, geometryChange, scrollPosition, scrollTransition, meshGradient,
-       visualEffect, buttonStyle, imageSymbolEffect, matchedGeometryEffect
+       visualEffect, buttonStyle, imageSymbolEffect, matchedGeometryEffect, listMove
   
   var title: String {
     switch self {
@@ -26,6 +26,7 @@ enum ViewCoordinator: String, CaseIterable, View {
     case .buttonStyle: return "Button Style"
     case .imageSymbolEffect: return "Image Symbol Effect"
     case .matchedGeometryEffect: return "Matced Geometry Effect"
+    case .listMove: return "List Move"
     }
   }
   
@@ -49,6 +50,7 @@ enum ViewCoordinator: String, CaseIterable, View {
     case .buttonStyle: CustomButtonStyleView()
     case .imageSymbolEffect: CustomImageEffectView()
     case .matchedGeometryEffect: CustomMatchedGeometryEffectView()
+    case .listMove: CustomMoveItemView()
     }
   }
 }
