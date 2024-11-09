@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		3D6A322A2C0BE67200ADAD2B /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D6A322A2C0BE67200ADAD2B /* DemoUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3DD529F42CCDC553001EF564 /* Demo */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Demo; sourceTree = "<group>"; };
+		3DD529F42CCDC553001EF564 /* DemoUI */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = DemoUI; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,7 +28,7 @@
 		3D6A32212C0BE67200ADAD2B = {
 			isa = PBXGroup;
 			children = (
-				3DD529F42CCDC553001EF564 /* Demo */,
+				3DD529F42CCDC553001EF564 /* DemoUI */,
 				3D6A322B2C0BE67200ADAD2B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -36,7 +36,7 @@
 		3D6A322B2C0BE67200ADAD2B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D6A322A2C0BE67200ADAD2B /* Demo.app */,
+				3D6A322A2C0BE67200ADAD2B /* DemoUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -44,9 +44,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D6A32292C0BE67200ADAD2B /* Demo */ = {
+		3D6A32292C0BE67200ADAD2B /* DemoUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D6A32382C0BE67300ADAD2B /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildConfigurationList = 3D6A32382C0BE67300ADAD2B /* Build configuration list for PBXNativeTarget "DemoUI" */;
 			buildPhases = (
 				3D6A32262C0BE67200ADAD2B /* Sources */,
 				3D6A32272C0BE67200ADAD2B /* Frameworks */,
@@ -57,11 +57,11 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				3DD529F42CCDC553001EF564 /* Demo */,
+				3DD529F42CCDC553001EF564 /* DemoUI */,
 			);
-			name = Demo;
+			name = DemoUI;
 			productName = Demo;
-			productReference = 3D6A322A2C0BE67200ADAD2B /* Demo.app */;
+			productReference = 3D6A322A2C0BE67200ADAD2B /* DemoUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -79,7 +79,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3D6A32252C0BE67200ADAD2B /* Build configuration list for PBXProject "Demo" */;
+			buildConfigurationList = 3D6A32252C0BE67200ADAD2B /* Build configuration list for PBXProject "DemoUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -92,7 +92,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D6A32292C0BE67200ADAD2B /* Demo */,
+				3D6A32292C0BE67200ADAD2B /* DemoUI */,
 			);
 		};
 /* End PBXProject section */
@@ -244,7 +244,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Demo/MainResource/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DemoUI/MainResource/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -273,7 +273,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Demo/MainResource/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DemoUI/MainResource/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -298,7 +298,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D6A32252C0BE67200ADAD2B /* Build configuration list for PBXProject "Demo" */ = {
+		3D6A32252C0BE67200ADAD2B /* Build configuration list for PBXProject "DemoUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D6A32362C0BE67300ADAD2B /* Debug */,
@@ -307,7 +307,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D6A32382C0BE67300ADAD2B /* Build configuration list for PBXNativeTarget "Demo" */ = {
+		3D6A32382C0BE67300ADAD2B /* Build configuration list for PBXNativeTarget "DemoUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D6A32392C0BE67300ADAD2B /* Debug */,
